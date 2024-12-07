@@ -52,10 +52,10 @@
 }
 
 .dark-background {
-  --background-color: #000910;
+  --background-color: #0d1e32;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #28323a;
+  --surface-color: #253245;
   --contrast-color: #ffffff;
 }
 
@@ -581,13 +581,13 @@ h6 {
 }
 
 .footer .footer-top {
-  padding-top: 50px;
+  padding-top: 10px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .footer-about .logo {
   line-height: 1;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .footer .footer-about .logo img {
@@ -608,34 +608,40 @@ h6 {
   font-family: var(--heading-font);
 }
 
-.footer .social-links a {
+.footer .social-links {
   display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  gap: 10px; /* Espaciado entre los enlaces */
+}
+
+.footer .social-links a {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
+  width: 40px; /* Ajusta el tamaño según lo necesites */
   height: 40px;
-  border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin-right: 10px;
-  transition: 0.3s;
+  border-radius: 50%; /* Hace los enlaces circulares */
+  background-color: var(--surface-color); /* Fondo de los íconos */
+  color: var(--default-color);
+  transition: all 0.3s ease;
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: var(--accent-color); /* Cambia el color de fondo al pasar el mouse */
+  color: var(--contrast-color);
 }
 
+
 .footer h4 {
+  text-align: center;
   font-size: 16px;
   font-weight: bold;
   position: relative;
-  padding-bottom: 12px;
 }
 
 .footer .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .footer .footer-links ul {
@@ -676,8 +682,8 @@ h6 {
 }
 
 .footer .footer-newsletter .newsletter-form {
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 6px 8px;
   position: relative;
   border-radius: 4px;
@@ -706,7 +712,7 @@ h6 {
 .footer .footer-newsletter .newsletter-form input[type=submit] {
   border: 0;
   font-size: 16px;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: -7px -8px -7px 0;
   background: var(--accent-color);
   color: var(--contrast-color);
@@ -719,7 +725,7 @@ h6 {
 }
 
 .footer .copyright {
-  padding: 25px 0;
+  padding: 10px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -1217,7 +1223,7 @@ section,
 
 .clients .client-logo img {
   padding: 20px 40px;
-  max-width: 70%;
+  max-width: 60%;
   transition: 0.3s;
   opacity: 0.5;
   filter: grayscale(100);
@@ -1231,7 +1237,7 @@ section,
 @media (max-width: 640px) {
   .clients .client-logo img {
     padding: 20px;
-    max-width: 110%;
+    max-width: 100%;
   }
 }
 
