@@ -1395,6 +1395,13 @@ section,
   height: auto;
 }
 
+@media (max-width: 575px) {
+  .faq-image {
+    width: 50%;
+    height: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -1508,6 +1515,12 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--default-color);
   opacity: 1;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 992px) {
@@ -1880,7 +1893,7 @@ section,
   height: 100%; /* Asegúrate de que el contenedor tenga una altura definida */
 }
 
-.portfolio .btn-download {
+.portfolio-details .btn-download {
   background: var(--contrast-color);
   color: var(--surface-color);
   font-weight: 400;
