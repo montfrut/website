@@ -5,6 +5,21 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Montfrut - Chocolate Gifts</title>
+
+  <!-- SCHEMA: Person -->
+    <script type="application/ld+json">
+      {
+      "@context": "https://Schema.org",
+      "@type": "OnlineBusiness",
+      "PostalAddress": "07307",
+      "email": "montfrut@gmail.com",
+      "location": "Jersey City",
+      "logo": "assets/img/logo.png",
+      "url": "https://www.montfrut.com",
+      "name": "Montfrut"
+      }
+    </script>
+
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -40,14 +55,12 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#season">Christmas</a></li>
-          <li><a href="#about">About</a></li>
+          <!--<li><a href="#season">Season</a></li>-->
           <li><a href="#portfolio">Products</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#services-2">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
-          <!--
-          <li><a href="#contact"><img src="assets/img/lang/spanish.png" alt="Bandera española"> &nbsp; Cambiar a español</a></li>
-          -->
+          <!--<li><a href="#contact"><img src="assets/img/lang/spanish.png" alt="Bandera española"> &nbsp; Cambiar a español</a></li>-->
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -72,21 +85,15 @@
     </section><!-- /Hero Section -->
 
     <!-- Season Section -->
-    <section id="season" class="portfolio section">
-
-      <!-- Section Title -->
+    <!--<section id="season" class="portfolio section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Holidays</h2>
-        <p>CHRISTMAS</p>
-      </div><!-- End Section Title -->
+        <p>CHRISTMAS AND NEW YEAR</p>
+      </div>
 
       <div class="container">
-
-        <!-- Portfolio Details Section -->
         <section id="portfolio-details" class="portfolio-details section">
-
           <div class="container" data-aos="fade-up" data-aos-delay="100">
-
             <div class="row gy-4">
               <div class="col-lg-12">
                 <div class="portfolio-details-slider swiper init-swiper">
@@ -138,18 +145,262 @@
               </div>
             </div>
 
-            <!-- Catalog Download Button -->
             <div class="download">
               <a href="https://drive.google.com/file/d/1Oi52Cq9_zmOa8IIU1amDCp7WD23jAJYa/view" target="_blank" rel="noopener noreferrer" class="btn-download">Download the Christmas Catalog 2024!</a>
             </div>
 
           </div>
+        </section>
+      </div>
+    </section>-->
+    <!-- /Season Section -->
 
-        </section><!-- /Portfolio Details Section -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Products</h2>
+        <p>CHECK OUR PRODUCTS</p>
+      </div><!-- End Section Title -->
+      
+      <!--<div class="download">
+        <a href="https://drive.google.com/file/d/1Oi52Cq9_zmOa8IIU1amDCp7WD23jAJYa/view" target="_blank" rel="noopener noreferrer" class="btn-download">Download the Christmas Catalog 2024!</a>
+      </div>-->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-season">Christmas</li>
+            <li data-filter=".filter-app">Mendiants</li>
+            <li data-filter=".filter-product">Chocolate Bars</li>
+            <li data-filter=".filter-branding">Oreos</li>
+            <li data-filter=".filter-books">Strawberries</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/mendiants-1.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Mendiants</h4>
+                  <a href="assets/img/portfolio/mendiants-1.png" title="Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/bars-1.png" class="img-fluid" alt="Chocolate Bars image">
+                <div class="portfolio-info">
+                  <h4>Chocolate Bars</h4>
+                  <a href="assets/img/portfolio/bars-1.png" title="Pumpkin Seeds Chocolate Bar" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/oreos-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Oreos</h4>
+                  <a href="assets/img/portfolio/oreos-1.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/strawberries-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Strawberries</h4>
+                  <a href="assets/img/portfolio/strawberries-1.png" title="Chocolate Dipped Strawberries" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/xmas-1.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Christmas</h4>
+                  <a href="assets/img/portfolio/xmas-1.png" title="Christmas Chocolate Bar" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/mendiants-2.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Mendiants</h4>
+                  <a href="assets/img/portfolio/mendiants-2.png" title="Hexagonal Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/bars-2.png" class="img-fluid" alt="Chocolate Bars">
+                <div class="portfolio-info">
+                  <h4>Chocolate Bars</h4>
+                  <a href="assets/img/portfolio/bars-2.png" title="Chocolate Nut Bars" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/oreos-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Oreos</h4>
+                  <a href="assets/img/portfolio/oreos-2.png" title="Chocolate Dipped Oreos" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/strawberries-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Strawberries</h4>
+                  <a href="assets/img/portfolio/strawberries-2.png" title="Chocolate Dipped Strawberries" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/xmas-5.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Christmas</h4>
+                  <a href="assets/img/portfolio/xmas-5.png" title="Christmas Chocolate Dipped Oreos" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/mendiants-3.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Mendiants</h4>
+                  <a href="assets/img/portfolio/mendiants-3.png" title="Dried Strawberries Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/bars-3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Chocolate Bars</h4>
+                  <a href="assets/img/portfolio/bars-3.png" title="Choco Oreo Bars" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/oreos-3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Oreos</h4>
+                  <a href="assets/img/portfolio/oreos-3.png" title="Chocolate Dipped Strawberries" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/strawberries-3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Strawberries</h4>
+                  <a href="assets/img/portfolio/strawberries-3.png" title="chocolate Dipped Oreos" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/xmas-9.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Christmas</h4>
+                  <a href="assets/img/portfolio/xmas-9.png" title="Christmas Bar, Mendiants and Strawberries" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/mendiants-4.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Mendiants</h4>
+                  <a href="assets/img/portfolio/mendiants-4.png" title="Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/bars-4.png" class="img-fluid" alt="Chocolate Bars image">
+                <div class="portfolio-info">
+                  <h4>Chocolate Bars</h4>
+                  <a href="assets/img/portfolio/bars-4.png" title="Mini Chocolate Bars" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/xmas-2.png" class="img-fluid" alt="Mendiants image">
+                <div class="portfolio-info">
+                  <h4>Christmas</h4>
+                  <a href="assets/img/portfolio/xmas-2.png" title="Christmas Bar, Mendiants and Strawberries" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
 
       </div>
 
-    </section><!-- /Season Section -->
+    </section>
+    <!-- /Portfolio Section -->
+
+    <!-- Social Media Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-3 col-6 client-logo">
+            <a href="https://instagram.com/montfrut"><img src="assets/img/social/instagram.png" class="img-fluid" alt="Instagram logo"></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-3 col-6 client-logo">
+            <a href="https://facebok.com/montfrut"><img src="assets/img/social/facebook.png" class="img-fluid" alt="Facebook logo"></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-3 col-6 client-logo">
+            <a href="https://tiktok.com/montfrut"><img src="assets/img/social/tik tok.png" class="img-fluid" alt="Tik Tok logo"></a>
+          </div><!-- End Client Item -->
+
+          <div class="col-xl-3 col-md-3 col-6 client-logo">
+            <a href="https://linkedin.com/montfrut"><img src="assets/img/social/linkedin.png" class="img-fluid" alt="Linkedin logo"></a>
+          </div><!-- End Client Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Social Media Section -->
 
     <!-- About Section -->
     <section id="about" class="about section dark-background2">
@@ -196,274 +447,8 @@
 
       </div>
 
-    </section><!-- /About Section -->
-
-    <!-- Social Media Section -->
-    <section id="clients" class="clients section light-background">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-md-3 col-6 client-logo">
-            <a href="https://instagram.com/montfrut"><img src="assets/img/social/instagram.png" class="img-fluid" alt="Instagram logo"></a>
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-4 col-md-3 col-6 client-logo">
-            <a href="https://www.facebook.com/montfrut"><img src="assets/img/social/facebook.png" class="img-fluid" alt="Facebook logo"></a>
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-4 col-md-3 col-6 client-logo">
-            <a href="https://www.tiktok.com/@montfrut"><img src="assets/img/social/tik tok.png" class="img-fluid" alt="Tik Tok logo"></a>
-          </div><!-- End Client Item -->
-
-          <!--
-          <div class="col-xl-3 col-md-3 col-6 client-logo">
-            <a href="https://linkedin.com/montfrut"><img src="assets/img/social/linkedin.png" class="img-fluid" alt="Linkedin logo"></a>
-          </div>--><!-- End Client Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Social Media Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Products</h2>
-        <p>CHECK OUR PRODUCTS</p>
-      </div><!-- End Section Title -->
-      
-      <!-- Catalog Download Button -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="download">
-          <a href="https://drive.google.com/file/d/1Oi52Cq9_zmOa8IIU1amDCp7WD23jAJYa/view" target="_blank" rel="noopener noreferrer" class="btn-download">Download the Christmas Catalog 2024!</a>
-        </div>
-      </div>
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-season">Christmas</li>
-            <li data-filter=".filter-app">Mendiants</li>
-            <li data-filter=".filter-product">Chocolate Bars</li>
-            <li data-filter=".filter-branding">Oreos</li>
-            <li data-filter=".filter-books">Strawberries</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/mendiants-1.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Mendiants</h4>
-                  <a href="assets/img/portfolio/mendiants-1.png" title="Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/bars-1.png" class="img-fluid" alt="Chocolate Bars image">
-                <div class="portfolio-info">
-                  <h4>Chocolate Bars</h4>
-                  <a href="assets/img/portfolio/bars-1.png" title="Pumpkin Seeds Chocolate Bar" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/oreos-1.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Oreos</h4>
-                  <a href="assets/img/portfolio/oreos-1.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/strawberries-1.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Strawberries</h4>
-                  <a href="assets/img/portfolio/strawberries-1.png" title="Chocolate Dipped Strawberries" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/xmas-1.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Christmas</h4>
-                  <a href="assets/img/portfolio/xmas-1.png" title="Christmas Chocolate Bar" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/mendiants-2.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Mendiants</h4>
-                  <a href="assets/img/portfolio/mendiants-2.png" title="Hexagonal Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/bars-2.png" class="img-fluid" alt="Chocolate Bars">
-                <div class="portfolio-info">
-                  <h4>Chocolate Bars</h4>
-                  <a href="assets/img/portfolio/bars-2.png" title="Chocolate Nut Bars" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/oreos-2.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Oreos</h4>
-                  <a href="assets/img/portfolio/oreos-2.png" title="Chocolate Dipped Oreos" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/strawberries-2.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Strawberries</h4>
-                  <a href="assets/img/portfolio/strawberries-2.png" title="Chocolate Dipped Strawberries" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/xmas-5.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Christmas</h4>
-                  <a href="assets/img/portfolio/xmas-5.png" title="Christmas Chocolate Dipped Oreos" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/mendiants-3.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Mendiants</h4>
-                  <a href="assets/img/portfolio/mendiants-3.png" title="Dried Strawberries Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/bars-3.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Chocolate Bars</h4>
-                  <a href="assets/img/portfolio/bars-3.png" title="Choco Oreo Bars" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/oreos-3.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Oreos</h4>
-                  <a href="assets/img/portfolio/oreos-3.png" title="Chocolate Dipped Strawberries" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/strawberries-3.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Strawberries</h4>
-                  <a href="assets/img/portfolio/strawberries-3.png" title="chocolate Dipped Oreos" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/xmas-9.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Christmas</h4>
-                  <a href="assets/img/portfolio/xmas-9.png" title="Christmas Bar, Mendiants and Strawberries" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/mendiants-4.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Mendiants</h4>
-                  <a href="assets/img/portfolio/mendiants-4.png" title="Mendiants" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/bars-4.png" class="img-fluid" alt="Chocolate Bars image">
-                <div class="portfolio-info">
-                  <h4>Chocolate Bars</h4>
-                  <a href="assets/img/portfolio/bars-4.png" title="Mini Chocolate Bars" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-season">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/xmas-2.png" class="img-fluid" alt="Mendiants image">
-                <div class="portfolio-info">
-                  <h4>Christmas</h4>
-                  <a href="assets/img/portfolio/xmas-2.png" title="Christmas Bar, Mendiants and Strawberries" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
+    </section>
+    <!-- /About Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
@@ -574,17 +559,18 @@
             </a>
             <div class="collapse faq-collapse" id="collapseFaq1">
               <div class="card card-body bg-faq">
-                <p><strong>Select your favorite products</strong></p>
-                <p>Check out our options and choose the gift that you like best.</p>
-                <p><strong>Contact us to place your order</strong></p>
+                <p>Check out our catalog and choose your favorite product.</p>
                 <ul>
-                  <li><p>(917) 474-0694</p></li>
-                  <li><p>montfrut@gmail.com</p></li>
-                  <li><p>@montfrut</p></li>
+                  <li><p>Dairy and its derivatives.</p></li>
+                  <li><p>Nuts, berries, dried fruits, coconut, and strawberries.</p></li>
+                  <li><p>Soy and gluten derivatives.</p></li>
                 </ul>
-                <p>Indicate wheter you prefer to pick up your order or have it delivered.</p>
-                <p>Considering that our products are handcrafted, please make sure to place your order well in advance to ensure availability.</p>
-                <p>If you would like a wholesaleorder, please contact us.</p>
+                <p>While we take measures to minimize cross-contamination, we cannot guarantee the complete absence of traces of these allergens. Therefore, <strong>our products are not suitable for individuals with severe allergies to the mentioned ingredients</strong>.</p>
+                <p>Additional Precautions</p>
+                <ul>
+                  <li><p>Keep out of reach of children due to choking hazards. Adult supervision is recommended during consumption.</p></li>
+                  <li><p>Our products are not intended for animal consumption.</p></li>
+                </ul>
 
               </div>
             </div>
@@ -603,8 +589,8 @@
             <div class="collapse faq-collapse" id="collapseFaq2">
               <div class="card card-body bg-faq">
                 <p>We accept the following forms of payment</p>
-                <ul class="no-bullets">
-                  <li><img src="assets/img/cash.png" class="faq-image" alt="Bills image"></p></li>
+                <ul>
+                  <li><p>Cash <img src="assets/img/cash.png" class="faq-image" alt="Bills image"></p></li>
                   <li><img src="assets/img/zelle.png" class="faq-image" alt="Zelle logo"></li>
                   <li><img src="assets/img/paypal.png" class="faq-image" alt="Paypal logo"></li>
                 </ul>
@@ -773,10 +759,10 @@
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>Montfrut 2024</p>
+    <div class="container text-center mt-4">
+      <p>Montfrut 2025</p>
       <div class="credits">
-        Designed by Matear Web
+       Website developed by Matear Web
       </div>
     </div>
 
